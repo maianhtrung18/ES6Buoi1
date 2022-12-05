@@ -87,3 +87,16 @@ let tinh2 = () => {
 document.getElementById("tinh1").onclick = tinh1;
 document.getElementById("tinh2").onclick = tinh2;
 
+let hover = () => {
+    let str = document.querySelector(".heading").innerHTML;
+    let chars = [...str];
+    let letters = chars.map((char) =>{
+        return `<span>${char}</span>`
+    });
+    let content = letters.join("");
+    document.querySelector(".heading").innerHTML = content;
+}
+hover();
+
+
+
