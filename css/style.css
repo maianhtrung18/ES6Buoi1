@@ -1,0 +1,41 @@
+.color-button{
+    height: 20px;
+    width: 20px;
+    border: 3px solid gray;
+}
+#house{
+    height: 100px;
+    width: 100px;
+    border: 3px solid gray;
+}
+
+.pallet{
+    background-color: palevioletred;
+}
+.viridian{
+    background-color: violet;
+}
+.pewter{
+    background-color: powderblue;
+}
+.cerulean{
+    background-color: cadetblue;
+}
+.vermillion{
+    background-color: white;
+}
+.lavender{
+    background-color: lavender;
+}
+.celadon{
+    background-color: cornflowerblue;
+}
+.saffron{
+    background-color: salmon;
+}
+.fuschia{
+    background-color: fuchsia;
+}
+.cinnabar{
+    background-color: crimson;
+}
